@@ -1,0 +1,261 @@
+[
+    {
+        "period": "Dinsdag 24 september 10:00 uur t/m maandag 4 november 1:00 uur.",
+        "active": true,
+        "type": "MAINTENANCE",
+        "id": "7005485",
+        "title": "Sittard - Heerlen; Sittard - Heerlen - Kerkrade.",
+        "isActive": true,
+        "topic": null,
+        "local": true,
+        "titleSections": [
+            [
+                {
+                    "type": "STATION",
+                    "value": "Sittard"
+                },
+                {
+                    "type": "ICON",
+                    "value": "MAINTENANCE"
+                },
+                {
+                    "type": "STATION",
+                    "value": "Heerlen"
+                }
+            ],
+            [
+                {
+                    "type": "STATION",
+                    "value": "Sittard"
+                },
+                {
+                    "type": "ICON",
+                    "value": "MAINTENANCE"
+                },
+                {
+                    "type": "STATION",
+                    "value": "Heerlen"
+                },
+                {
+                    "type": "STATION",
+                    "value": "Kerkrade C."
+                }
+            ]
+        ],
+        "registrationTime": "2024-10-05T16:48:22+0200",
+        "releaseTime": "2024-10-05T16:48:22+0200",
+        "start": "2024-09-24T10:00:00+0200",
+        "end": "2024-11-04T01:00:00+0100",
+        "phase": null,
+        "impact": {
+            "value": 2
+        },
+        "expectedDuration": null,
+        "publicationSections": [
+            {
+                "section": {
+                    "stations": [
+                        {
+                            "name": "Sittard",
+                            "stationCode": "STD",
+                            "uicCode": "8400564",
+                            "coordinate": {
+                                "lat": 51.0016670227051,
+                                "lng": 5.85861110687256
+                            }
+                        },
+                        {
+                            "name": "Geleen Oost",
+                            "stationCode": "GLN",
+                            "uicCode": "8400246",
+                            "coordinate": {
+                                "lat": 50.9669456481934,
+                                "lng": 5.84305572509766
+                            }
+                        },
+                        {
+                            "name": "Spaubeek",
+                            "stationCode": "SBK",
+                            "uicCode": "8400572",
+                            "coordinate": {
+                                "lat": 50.94327,
+                                "lng": 5.850529
+                            }
+                        },
+                        {
+                            "name": "Schinnen",
+                            "stationCode": "SN",
+                            "uicCode": "8400554",
+                            "coordinate": {
+                                "lat": 50.9391670227051,
+                                "lng": 5.87444448471069
+                            }
+                        },
+                        {
+                            "name": "Nuth",
+                            "stationCode": "NH",
+                            "uicCode": "8400467",
+                            "coordinate": {
+                                "lat": 50.9194450378418,
+                                "lng": 5.89277791976929
+                            }
+                        },
+                        {
+                            "name": "Hoensbroek",
+                            "stationCode": "HB",
+                            "uicCode": "8400326",
+                            "coordinate": {
+                                "lat": 50.9055557250977,
+                                "lng": 5.93055534362793
+                            }
+                        },
+                        {
+                            "name": "Heerlen",
+                            "stationCode": "HRL",
+                            "uicCode": "8400307",
+                            "coordinate": {
+                                "lat": 50.8908348083496,
+                                "lng": 5.97499990463257
+                            }
+                        }
+                    ],
+                    "direction": "BOTH"
+                },
+                "consequence": {
+                    "description": "minder stoptreinen",
+                    "level": "LESS_TRAINS"
+                }
+            },
+            {
+                "section": {
+                    "stations": [
+                        {
+                            "name": "Sittard",
+                            "stationCode": "STD",
+                            "uicCode": "8400564",
+                            "coordinate": {
+                                "lat": 51.0016670227051,
+                                "lng": 5.85861110687256
+                            }
+                        },
+                        {
+                            "name": "Geleen Oost",
+                            "stationCode": "GLN",
+                            "uicCode": "8400246",
+                            "coordinate": {
+                                "lat": 50.9669456481934,
+                                "lng": 5.84305572509766
+                            }
+                        },
+                        {
+                            "name": "Spaubeek",
+                            "stationCode": "SBK",
+                            "uicCode": "8400572",
+                            "coordinate": {
+                                "lat": 50.94327,
+                                "lng": 5.850529
+                            }
+                        },
+                        {
+                            "name": "Schinnen",
+                            "stationCode": "SN",
+                            "uicCode": "8400554",
+                            "coordinate": {
+                                "lat": 50.9391670227051,
+                                "lng": 5.87444448471069
+                            }
+                        },
+                        {
+                            "name": "Nuth",
+                            "stationCode": "NH",
+                            "uicCode": "8400467",
+                            "coordinate": {
+                                "lat": 50.9194450378418,
+                                "lng": 5.89277791976929
+                            }
+                        },
+                        {
+                            "name": "Hoensbroek",
+                            "stationCode": "HB",
+                            "uicCode": "8400326",
+                            "coordinate": {
+                                "lat": 50.9055557250977,
+                                "lng": 5.93055534362793
+                            }
+                        },
+                        {
+                            "name": "Heerlen",
+                            "stationCode": "HRL",
+                            "uicCode": "8400307",
+                            "coordinate": {
+                                "lat": 50.8908348083496,
+                                "lng": 5.97499990463257
+                            }
+                        },
+                        {
+                            "name": "Landgraaf",
+                            "stationCode": "LG",
+                            "uicCode": "8400548",
+                            "coordinate": {
+                                "lat": 50.8963890075684,
+                                "lng": 6.01916646957398
+                            }
+                        },
+                        {
+                            "name": "Eygelshoven",
+                            "stationCode": "EGH",
+                            "uicCode": "8400338",
+                            "coordinate": {
+                                "lat": 50.8905563354492,
+                                "lng": 6.04500007629395
+                            }
+                        },
+                        {
+                            "name": "Chevremont",
+                            "stationCode": "CVM",
+                            "uicCode": "8400152",
+                            "coordinate": {
+                                "lat": 50.8761100769043,
+                                "lng": 6.05972242355347
+                            }
+                        },
+                        {
+                            "name": "Kerkrade Centrum",
+                            "stationCode": "KRD",
+                            "uicCode": "8400355",
+                            "coordinate": {
+                                "lat": 50.8616676330566,
+                                "lng": 6.05749988555908
+                            }
+                        }
+                    ],
+                    "direction": "BOTH"
+                },
+                "consequence": {
+                    "description": "minder stoptreinen",
+                    "level": "LESS_TRAINS"
+                }
+            }
+        ],
+        "timespans": [
+            {
+                "start": "2024-09-24T08:00:00Z",
+                "end": "2024-11-04T00:00:00Z",
+                "period": "Dinsdag 24 september 10:00 uur t/m maandag 4 november 1:00 uur.",
+                "situation": {
+                    "label": "Door een tekort aan personeel: tussen Sittard en Heerlen rijden er minder stoptreinen."
+                },
+                "cause": {
+                    "label": "tekort personeel"
+                },
+                "additionalTravelTime": {
+                    "label": "U heeft geen langere reistijd.",
+                    "shortLabel": "Geen extra reistijd."
+                },
+                "advices": [
+                    "Plan uw reis in de app."
+                ]
+            }
+        ]
+    }
+]
