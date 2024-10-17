@@ -1,20 +1,16 @@
 [
     {
         "type": "DISRUPTION",
-        "id": "6051104",
-        "title": "Amsterdam - Zandvoort aan Zee.",
+        "id": "6051147",
+        "title": "Alphen a/d Rijn - Gouda.",
         "isActive": true,
-        "topic": "disruption_6051104_nl",
+        "topic": "disruption_6051147_nl",
         "local": false,
         "titleSections": [
             [
                 {
                     "type": "STATION",
-                    "value": "Amsterdam C."
-                },
-                {
-                    "type": "STATION",
-                    "value": "Haarlem"
+                    "value": "Alphen a/d Rijn"
                 },
                 {
                     "type": "ICON",
@@ -22,14 +18,18 @@
                 },
                 {
                     "type": "STATION",
-                    "value": "Zandvoort"
+                    "value": "Boskoop"
+                },
+                {
+                    "type": "STATION",
+                    "value": "Gouda"
                 }
             ]
         ],
-        "registrationTime": "2024-10-15T13:22:44+0200",
-        "releaseTime": "2024-10-15T13:22:44+0200",
-        "start": "2024-10-15T12:40:14+0200",
-        "end": "2024-10-15T14:30:00+0200",
+        "registrationTime": "2024-10-17T09:05:01+0200",
+        "releaseTime": "2024-10-17T09:05:01+0200",
+        "start": "2024-10-17T07:11:57+0200",
+        "end": "2024-10-17T11:00:00+0200",
         "phase": {
             "id": "3",
             "label": "Vervangend vervoer"
@@ -38,8 +38,8 @@
             "value": 3
         },
         "expectedDuration": {
-            "description": "Dit duurt tot ongeveer 14:30 uur.",
-            "endTime": "2024-10-15T14:30:00+0200"
+            "description": "Dit duurt ten minste tot 11:00 uur.",
+            "endTime": "2024-10-17T11:00:00+0200"
         },
         "publicationSections": [
             {
@@ -47,73 +47,73 @@
                     "stations": [
                         {
                             "coordinate": {
-                                "lat": 52.3788871765137,
-                                "lng": 4.90027761459351
+                                "lat": 52.1244430541992,
+                                "lng": 4.65777778625488
                             },
                             "countryCode": "NL",
-                            "name": "Amsterdam Centraal",
-                            "stationCode": "ASD",
-                            "uicCode": "8400058"
+                            "name": "Alphen a/d Rijn",
+                            "stationCode": "APN",
+                            "uicCode": "8400053"
                         },
                         {
                             "coordinate": {
-                                "lat": 52.3888893127441,
-                                "lng": 4.83777761459351
+                                "lat": 52.0777778625488,
+                                "lng": 4.64694452285767
                             },
                             "countryCode": "NL",
-                            "name": "Amsterdam Sloterdijk",
-                            "stationCode": "ASS",
-                            "uicCode": "8400059"
+                            "name": "Boskoop",
+                            "stationCode": "BSK",
+                            "uicCode": "8400125"
                         },
                         {
                             "coordinate": {
-                                "lat": 52.385935,
-                                "lng": 4.747165
+                                "lat": 52.067658,
+                                "lng": 4.646186
                             },
                             "countryCode": "NL",
-                            "name": "Halfweg-Zwanenburg",
-                            "stationCode": "HWZB",
-                            "uicCode": "8400400"
+                            "name": "Boskoop Snijdelwijk",
+                            "stationCode": "BSKS",
+                            "uicCode": "8400126"
                         },
                         {
                             "coordinate": {
-                                "lat": 52.3827781677246,
-                                "lng": 4.67305564880371
+                                "lat": 52.0550003051758,
+                                "lng": 4.64833354949951
                             },
                             "countryCode": "NL",
-                            "name": "Haarlem Spaarnwoude",
-                            "stationCode": "HLMS",
-                            "uicCode": "8400270"
+                            "name": "Waddinxveen Noord",
+                            "stationCode": "WADN",
+                            "uicCode": "8400674"
                         },
                         {
                             "coordinate": {
-                                "lat": 52.3877792358398,
-                                "lng": 4.63833332061768
+                                "lat": 52.0441665649414,
+                                "lng": 4.6497220993042
                             },
                             "countryCode": "NL",
-                            "name": "Haarlem",
-                            "stationCode": "HLM",
-                            "uicCode": "8400285"
+                            "name": "Waddinxveen",
+                            "stationCode": "WAD",
+                            "uicCode": "8400675"
                         },
                         {
                             "coordinate": {
-                                "lat": 52.3911094665527,
-                                "lng": 4.6061110496521
+                                "lat": 52.02725,
+                                "lng": 4.6491
                             },
                             "countryCode": "NL",
-                            "name": "Overveen",
-                            "stationCode": "OVN",
-                            "uicCode": "8400501"
+                            "name": "Waddinxveen Triangel",
+                            "stationCode": "WADT",
+                            "uicCode": "8400677"
                         },
                         {
                             "coordinate": {
-                                "lat": 52.3752784729004,
-                                "lng": 4.53277778625488
+                                "lat": 52.0175018310547,
+                                "lng": 4.70444440841675
                             },
                             "countryCode": "NL",
-                            "name": "Zandvoort aan Zee",
-                            "stationCode": "ZVT",
-                            "uicCode": "8400733"
+                            "name": "Gouda",
+                            "stationCode": "GD",
+                            "uicCode": "8400258"
                         }
                     ],
                     "direction": "BOTH"
@@ -123,33 +123,23 @@
                         "stations": [
                             {
                                 "coordinate": {
-                                    "lat": 52.3877792358398,
-                                    "lng": 4.63833332061768
+                                    "lat": 52.1244430541992,
+                                    "lng": 4.65777778625488
                                 },
                                 "countryCode": "NL",
-                                "name": "Haarlem",
-                                "stationCode": "HLM",
-                                "uicCode": "8400285"
+                                "name": "Alphen a/d Rijn",
+                                "stationCode": "APN",
+                                "uicCode": "8400053"
                             },
                             {
                                 "coordinate": {
-                                    "lat": 52.3911094665527,
-                                    "lng": 4.6061110496521
+                                    "lat": 52.0777778625488,
+                                    "lng": 4.64694452285767
                                 },
                                 "countryCode": "NL",
-                                "name": "Overveen",
-                                "stationCode": "OVN",
-                                "uicCode": "8400501"
-                            },
-                            {
-                                "coordinate": {
-                                    "lat": 52.3752784729004,
-                                    "lng": 4.53277778625488
-                                },
-                                "countryCode": "NL",
-                                "name": "Zandvoort aan Zee",
-                                "stationCode": "ZVT",
-                                "uicCode": "8400733"
+                                "name": "Boskoop",
+                                "stationCode": "BSK",
+                                "uicCode": "8400125"
                             }
                         ],
                         "direction": "ONE_WAY"
@@ -162,73 +152,85 @@
         ],
         "timespans": [
             {
-                "start": "2024-10-15T12:40:14+0200",
-                "end": "2024-10-15T14:30:00+0200",
-                "period": "Dinsdag 15 oktober 12:40 uur t/m dinsdag 15 oktober 14:30 uur.",
+                "start": "2024-10-17T07:11:57+0200",
+                "end": "2024-10-17T11:00:00+0200",
+                "period": "Donderdag 17 oktober 7:11 uur t/m donderdag 17 oktober 11:00 uur.",
                 "situation": {
-                    "label": "Door een beschadigde spoorbrug: tussen Haarlem en Zandvoort aan Zee rijden er geen treinen."
+                    "label": "Door een seinstoring: tussen Alphen a/d Rijn en Boskoop rijden er geen treinen."
                 },
                 "cause": {
-                    "label": "beschadigde spoorbrug"
+                    "label": "seinstoring"
                 },
                 "alternativeTransport": {
-                    "label": "er rijden stopbussen",
-                    "shortLabel": "er rijden stopbussen"
+                    "label": "er rijden zeer beperkt bussen",
+                    "shortLabel": "er rijden zeer beperkt bussen"
                 },
                 "advices": []
             }
         ],
         "alternativeTransportTimespans": [
             {
-                "start": "2024-10-15T12:40:14+0200",
-                "end": "2024-10-15T14:30:00+0200",
+                "start": "2024-10-17T07:11:57+0200",
+                "end": "2024-10-17T11:00:00+0200",
                 "alternativeTransport": {
                     "location": [
                         {
                             "station": {
                                 "coordinate": {
-                                    "lat": 52.3877792358398,
-                                    "lng": 4.63833332061768
+                                    "lat": 52.1244430541992,
+                                    "lng": 4.65777778625488
                                 },
                                 "countryCode": "NL",
-                                "name": "Haarlem",
-                                "stationCode": "HLM",
-                                "uicCode": "8400285"
+                                "name": "Alphen a/d Rijn",
+                                "stationCode": "APN",
+                                "uicCode": "8400053"
                             },
-                            "description": "vanaf de Jansweg"
+                            "description": "vanaf het busstation, centrumzijde"
                         },
                         {
                             "station": {
                                 "coordinate": {
-                                    "lat": 52.3911094665527,
-                                    "lng": 4.6061110496521
+                                    "lat": 52.0777778625488,
+                                    "lng": 4.64694452285767
                                 },
                                 "countryCode": "NL",
-                                "name": "Overveen",
-                                "stationCode": "OVN",
-                                "uicCode": "8400501"
+                                "name": "Boskoop",
+                                "stationCode": "BSK",
+                                "uicCode": "8400125"
                             },
-                            "description": "vanaf de voorzijde van het station"
-                        },
-                        {
-                            "station": {
-                                "coordinate": {
-                                    "lat": 52.3752784729004,
-                                    "lng": 4.53277778625488
-                                },
-                                "countryCode": "NL",
-                                "name": "Zandvoort aan Zee",
-                                "stationCode": "ZVT",
-                                "uicCode": "8400733"
-                            },
-                            "description": "vanaf de voorzijde van het station"
+                            "description": "vanaf de NS Bushalte"
                         }
                     ],
-                    "label": "Er rijden stopbussen tussen Haarlem, Overveen en Zandvoort aan Zee.",
-                    "shortLabel": "Er rijden stopbussen Haarlem - Overveen - Zandvoort."
+                    "label": "Er rijden zeer beperkt bussen tussen Alphen a/d Rijn en Boskoop.",
+                    "shortLabel": "Er rijden zeer beperkt bussen Alphen a/d Rijn - Boskoop."
                 }
             }
         ]
+    },
+    {
+        "type": "CALAMITY",
+        "id": "f36b46d7-ed2e-4f9f-af0e-7606ac81946a",
+        "title": "Werkzaamheden: Tilburg-Boxtel",
+        "isActive": true,
+        "topic": "disruption_f36b46d7-ed2e-4f9f-af0e-7606ac81946a_nl",
+        "description": "Door werkzaamheden rijden van zaterdag 19 t/m zaterdag 26 oktober 09.00 uur geen treinen tussen Tilburg en Boxtel.\r\nEr rijden op bussen tussen Tilburg en Boxtel. Tussen Tilburg en Eindhoven Centraal kunt u omreizen via ’s-Hertogenbosch. \r\nPlan uw reis vooraf.",
+        "url": "https://www.ns.nl/reisinformatie/calamiteiten/werkzaamheden-tilburg-boxtel.html",
+        "priority": "PRIO_3",
+        "lastUpdated": "2024-01-16T02:00:00+0100",
+        "bodyItems": [],
+        "buttons": {
+            "position": [
+                "BOTTOM"
+            ],
+            "items": [
+                {
+                    "label": "Plan je reis",
+                    "accessibilityLabel": "Plan je reis",
+                    "url": "https://www.ns.nl/reisplanner",
+                    "type": "PLANNER"
+                }
+            ]
+        }
     },
     {
         "type": "MAINTENANCE",
@@ -1404,30 +1406,6 @@
         },
         "timespans": [
             {
-                "start": "2024-10-15T05:45:00+0200",
-                "end": "2024-10-15T23:30:00+0200",
-                "period": "Dinsdag 15 oktober 5:45 uur t/m dinsdag 15 oktober 23:30 uur.",
-                "situation": {
-                    "label": "Door een tekort aan personeel: tussen Heerlen en Aachen Hbf rijden er minder treinen."
-                },
-                "cause": {
-                    "label": "tekort personeel"
-                },
-                "additionalTravelTime": {
-                    "label": "De extra reistijd is ongeveer 30 minuten.",
-                    "shortLabel": "Extra reistijd 30 min.",
-                    "minimumDurationInMinutes": 30,
-                    "maximumDurationInMinutes": 30
-                },
-                "alternativeTransport": {
-                    "label": "er rijden stopbussen",
-                    "shortLabel": "er rijden stopbussen"
-                },
-                "advices": [
-                    "Enkele treinen zijn vervangen door een stopbus. U kunt ook met een trein eerder of later reizen."
-                ]
-            },
-            {
                 "start": "2024-10-17T08:45:00+0200",
                 "end": "2024-10-17T12:15:00+0200",
                 "period": "Donderdag 17 oktober 8:45 uur t/m donderdag 17 oktober 12:15 uur.",
@@ -2060,517 +2038,6 @@
                     ],
                     "label": "Er rijden stopbussen tussen Venlo, Kaldenkirchen, Breyell, Boisheim, Dülken, Viersen en Mönchengladbach Hbf.",
                     "shortLabel": "Er rijden stopbussen Venlo - Kaldenkirchen - Breyell - Boisheim - Dülken - Viersen - Mönchengladbach."
-                }
-            }
-        ]
-    },
-    {
-        "type": "MAINTENANCE",
-        "id": "7005378",
-        "title": "Schiphol - Leiden.",
-        "isActive": false,
-        "local": false,
-        "titleSections": [
-            [
-                {
-                    "type": "STATION",
-                    "value": "Schiphol Airport"
-                },
-                {
-                    "type": "ICON",
-                    "value": "MAINTENANCE"
-                },
-                {
-                    "type": "STATION",
-                    "value": "Leiden C."
-                }
-            ]
-        ],
-        "registrationTime": "2024-10-06T13:51:08+0200",
-        "start": "2024-10-16T01:20:00+0200",
-        "releaseTime": "2024-10-06T13:51:08+0200",
-        "end": "2024-10-16T05:00:00+0200",
-        "period": "Woensdag 16 oktober 1:20 uur t/m woensdag 16 oktober 5:00 uur.",
-        "impact": {
-            "value": 2
-        },
-        "publicationSections": [
-            {
-                "section": {
-                    "stations": [
-                        {
-                            "coordinate": {
-                                "lat": 52.3094444274902,
-                                "lng": 4.76194429397583
-                            },
-                            "countryCode": "NL",
-                            "name": "Schiphol Airport",
-                            "stationCode": "SHL",
-                            "uicCode": "8400561"
-                        },
-                        {
-                            "coordinate": {
-                                "lat": 52.2933349609375,
-                                "lng": 4.70055532455444
-                            },
-                            "countryCode": "NL",
-                            "name": "Hoofddorp",
-                            "stationCode": "HFD",
-                            "uicCode": "8400332"
-                        },
-                        {
-                            "coordinate": {
-                                "lat": 52.2588882446289,
-                                "lng": 4.64555549621582
-                            },
-                            "countryCode": "NL",
-                            "name": "Nieuw Vennep",
-                            "stationCode": "NVP",
-                            "uicCode": "8400460"
-                        },
-                        {
-                            "coordinate": {
-                                "lat": 52.215278,
-                                "lng": 4.517222
-                            },
-                            "countryCode": "NL",
-                            "name": "Sassenheim",
-                            "stationCode": "SSH",
-                            "uicCode": "8400603"
-                        },
-                        {
-                            "coordinate": {
-                                "lat": 52.1661109924316,
-                                "lng": 4.48166656494141
-                            },
-                            "countryCode": "NL",
-                            "name": "Leiden Centraal",
-                            "stationCode": "LEDN",
-                            "uicCode": "8400390"
-                        }
-                    ],
-                    "direction": "BOTH"
-                },
-                "consequence": {
-                    "section": {
-                        "stations": [
-                            {
-                                "coordinate": {
-                                    "lat": 52.3094444274902,
-                                    "lng": 4.76194429397583
-                                },
-                                "countryCode": "NL",
-                                "name": "Schiphol Airport",
-                                "stationCode": "SHL",
-                                "uicCode": "8400561"
-                            },
-                            {
-                                "coordinate": {
-                                    "lat": 52.2933349609375,
-                                    "lng": 4.70055532455444
-                                },
-                                "countryCode": "NL",
-                                "name": "Hoofddorp",
-                                "stationCode": "HFD",
-                                "uicCode": "8400332"
-                            },
-                            {
-                                "coordinate": {
-                                    "lat": 52.2588882446289,
-                                    "lng": 4.64555549621582
-                                },
-                                "countryCode": "NL",
-                                "name": "Nieuw Vennep",
-                                "stationCode": "NVP",
-                                "uicCode": "8400460"
-                            },
-                            {
-                                "coordinate": {
-                                    "lat": 52.215278,
-                                    "lng": 4.517222
-                                },
-                                "countryCode": "NL",
-                                "name": "Sassenheim",
-                                "stationCode": "SSH",
-                                "uicCode": "8400603"
-                            },
-                            {
-                                "coordinate": {
-                                    "lat": 52.1661109924316,
-                                    "lng": 4.48166656494141
-                                },
-                                "countryCode": "NL",
-                                "name": "Leiden Centraal",
-                                "stationCode": "LEDN",
-                                "uicCode": "8400390"
-                            }
-                        ],
-                        "direction": "ONE_WAY"
-                    },
-                    "description": "rijden bussen",
-                    "level": "LESS_TRAINS"
-                },
-                "sectionType": "NL"
-            }
-        ],
-        "summaryAdditionalTravelTime": {
-            "label": "De extra reistijd is ongeveer 30 minuten.",
-            "shortLabel": "Extra reistijd 30 min.",
-            "minimumDurationInMinutes": 30,
-            "maximumDurationInMinutes": 30
-        },
-        "timespans": [
-            {
-                "start": "2024-10-16T01:20:00+0200",
-                "end": "2024-10-16T05:00:00+0200",
-                "period": "Woensdag 16 oktober 1:20 uur t/m woensdag 16 oktober 5:00 uur.",
-                "situation": {
-                    "label": "Door werkzaamheden: tussen Schiphol Airport en Leiden Centraal rijden er bussen."
-                },
-                "cause": {
-                    "label": "werkzaamheden"
-                },
-                "additionalTravelTime": {
-                    "label": "De extra reistijd is ongeveer 30 minuten.",
-                    "shortLabel": "Extra reistijd 30 min.",
-                    "minimumDurationInMinutes": 30,
-                    "maximumDurationInMinutes": 30
-                },
-                "alternativeTransport": {
-                    "label": "er rijden bussen",
-                    "shortLabel": "er rijden bussen"
-                },
-                "advices": []
-            }
-        ],
-        "alternativeTransportTimespans": [
-            {
-                "start": "2024-10-16T01:20:00+0200",
-                "end": "2024-10-16T05:00:00+0200",
-                "alternativeTransport": {
-                    "location": [
-                        {
-                            "station": {
-                                "coordinate": {
-                                    "lat": 52.3094444274902,
-                                    "lng": 4.76194429397583
-                                },
-                                "countryCode": "NL",
-                                "name": "Schiphol Airport",
-                                "stationCode": "SHL",
-                                "uicCode": "8400561"
-                            },
-                            "description": "vanaf de Halte F6, volg borden Touring coaches"
-                        },
-                        {
-                            "station": {
-                                "coordinate": {
-                                    "lat": 52.1661109924316,
-                                    "lng": 4.48166656494141
-                                },
-                                "countryCode": "NL",
-                                "name": "Leiden Centraal",
-                                "stationCode": "LEDN",
-                                "uicCode": "8400390"
-                            },
-                            "description": "vanaf het stadsbusstation"
-                        }
-                    ],
-                    "label": "Er rijden bussen tussen Schiphol Airport en Leiden Centraal.",
-                    "shortLabel": "Er rijden bussen Schiphol Airport - Leiden C."
-                }
-            }
-        ]
-    },
-    {
-        "type": "MAINTENANCE",
-        "id": "7005420",
-        "title": "Utrecht - 's-Hertogenbosch.",
-        "isActive": false,
-        "local": false,
-        "titleSections": [
-            [
-                {
-                    "type": "STATION",
-                    "value": "Utrecht C."
-                },
-                {
-                    "type": "STATION",
-                    "value": "Geldermalsen"
-                },
-                {
-                    "type": "ICON",
-                    "value": "MAINTENANCE"
-                },
-                {
-                    "type": "STATION",
-                    "value": "'s-Hertogenbosch"
-                }
-            ]
-        ],
-        "registrationTime": "2024-10-09T15:13:23+0200",
-        "start": "2024-10-16T04:00:00+0200",
-        "releaseTime": "2024-10-09T15:13:23+0200",
-        "end": "2024-10-17T02:00:00+0200",
-        "period": "Woensdag 16 oktober 4:00 uur t/m donderdag 17 oktober 2:00 uur.",
-        "impact": {
-            "value": 4
-        },
-        "publicationSections": [
-            {
-                "section": {
-                    "stations": [
-                        {
-                            "coordinate": {
-                                "lat": 52.0888900756836,
-                                "lng": 5.11027765274048
-                            },
-                            "countryCode": "NL",
-                            "name": "Utrecht Centraal",
-                            "stationCode": "UT",
-                            "uicCode": "8400621"
-                        },
-                        {
-                            "coordinate": {
-                                "lat": 52.078889,
-                                "lng": 5.121667
-                            },
-                            "countryCode": "NL",
-                            "name": "Utrecht Vaartsche Rijn",
-                            "stationCode": "UTVR",
-                            "uicCode": "8400606"
-                        },
-                        {
-                            "coordinate": {
-                                "lat": 52.0655555725098,
-                                "lng": 5.14416646957397
-                            },
-                            "countryCode": "NL",
-                            "name": "Utrecht Lunetten",
-                            "stationCode": "UTLN",
-                            "uicCode": "8400623"
-                        },
-                        {
-                            "coordinate": {
-                                "lat": 52.03402,
-                                "lng": 5.16821
-                            },
-                            "countryCode": "NL",
-                            "name": "Houten",
-                            "stationCode": "HTN",
-                            "uicCode": "8400340"
-                        },
-                        {
-                            "coordinate": {
-                                "lat": 52.01701,
-                                "lng": 5.17949
-                            },
-                            "countryCode": "NL",
-                            "name": "Houten Castellum",
-                            "stationCode": "HTNC",
-                            "uicCode": "8400335"
-                        },
-                        {
-                            "coordinate": {
-                                "lat": 51.9466667175293,
-                                "lng": 5.22694444656372
-                            },
-                            "countryCode": "NL",
-                            "name": "Culemborg",
-                            "stationCode": "CL",
-                            "uicCode": "8400154"
-                        },
-                        {
-                            "coordinate": {
-                                "lat": 51.88301,
-                                "lng": 5.27127
-                            },
-                            "countryCode": "NL",
-                            "name": "Geldermalsen",
-                            "stationCode": "GDM",
-                            "uicCode": "8400244"
-                        },
-                        {
-                            "coordinate": {
-                                "lat": 51.8088874816895,
-                                "lng": 5.26333332061768
-                            },
-                            "countryCode": "NL",
-                            "name": "Zaltbommel",
-                            "stationCode": "ZBM",
-                            "uicCode": "8400732"
-                        },
-                        {
-                            "coordinate": {
-                                "lat": 51.69048,
-                                "lng": 5.29362
-                            },
-                            "countryCode": "NL",
-                            "name": "'s-Hertogenbosch",
-                            "stationCode": "HT",
-                            "uicCode": "8400319"
-                        }
-                    ],
-                    "direction": "BOTH"
-                },
-                "consequence": {
-                    "section": {
-                        "stations": [
-                            {
-                                "coordinate": {
-                                    "lat": 51.88301,
-                                    "lng": 5.27127
-                                },
-                                "countryCode": "NL",
-                                "name": "Geldermalsen",
-                                "stationCode": "GDM",
-                                "uicCode": "8400244"
-                            },
-                            {
-                                "coordinate": {
-                                    "lat": 51.8088874816895,
-                                    "lng": 5.26333332061768
-                                },
-                                "countryCode": "NL",
-                                "name": "Zaltbommel",
-                                "stationCode": "ZBM",
-                                "uicCode": "8400732"
-                            },
-                            {
-                                "coordinate": {
-                                    "lat": 51.69048,
-                                    "lng": 5.29362
-                                },
-                                "countryCode": "NL",
-                                "name": "'s-Hertogenbosch",
-                                "stationCode": "HT",
-                                "uicCode": "8400319"
-                            }
-                        ],
-                        "direction": "ONE_WAY"
-                    },
-                    "description": "rijden bussen",
-                    "level": "LESS_TRAINS"
-                },
-                "sectionType": "NL"
-            }
-        ],
-        "summaryAdditionalTravelTime": {
-            "label": "De extra reistijd kan oplopen tot 30 minuten.",
-            "shortLabel": "Extra reistijd tot 30 min.",
-            "maximumDurationInMinutes": 30
-        },
-        "timespans": [
-            {
-                "start": "2024-10-16T04:00:00+0200",
-                "end": "2024-10-17T02:00:00+0200",
-                "period": "Woensdag 16 oktober 4:00 uur t/m donderdag 17 oktober 2:00 uur.",
-                "situation": {
-                    "label": "Door herstelwerkzaamheden: tussen Geldermalsen en 's-Hertogenbosch rijden er bussen."
-                },
-                "cause": {
-                    "label": "herstelwerkzaamheden"
-                },
-                "additionalTravelTime": {
-                    "label": "De extra reistijd kan oplopen tot 30 minuten.",
-                    "shortLabel": "Extra reistijd tot 30 min.",
-                    "maximumDurationInMinutes": 30
-                },
-                "alternativeTransport": {
-                    "label": "er rijden stop- en snelbussen",
-                    "shortLabel": "er rijden stop- en snelbussen"
-                },
-                "advices": [
-                    "Houd rekening met drukte en langere wachttijden bij de bus tijdens de spitsuren.",
-                    "Tussen Tilburg en Eindhoven C./Amsterdam C. reis via Rotterdam C.",
-                    "Tussen Utrecht C. en 's-Hertogenbosch reis via Arnhem C."
-                ]
-            }
-        ],
-        "alternativeTransportTimespans": [
-            {
-                "start": "2024-10-16T04:00:00+0200",
-                "end": "2024-10-17T02:00:00+0200",
-                "alternativeTransport": {
-                    "location": [
-                        {
-                            "station": {
-                                "coordinate": {
-                                    "lat": 52.0888900756836,
-                                    "lng": 5.11027765274048
-                                },
-                                "countryCode": "NL",
-                                "name": "Utrecht Centraal",
-                                "stationCode": "UT",
-                                "uicCode": "8400621"
-                            },
-                            "description": "vanaf de Jaarbeursplein, halte G"
-                        },
-                        {
-                            "station": {
-                                "coordinate": {
-                                    "lat": 51.69048,
-                                    "lng": 5.29362
-                                },
-                                "countryCode": "NL",
-                                "name": "'s-Hertogenbosch",
-                                "stationCode": "HT",
-                                "uicCode": "8400319"
-                            },
-                            "description": "vanaf de Magistratenlaan aan de achterzijde van het station"
-                        }
-                    ],
-                    "label": "Er rijden snelbussen tussen Utrecht Centraal en 's-Hertogenbosch.",
-                    "shortLabel": "Er rijden snelbussen Utrecht C. - 's-Hertogenbosch."
-                }
-            },
-            {
-                "start": "2024-10-16T04:00:00+0200",
-                "end": "2024-10-17T02:00:00+0200",
-                "alternativeTransport": {
-                    "location": [
-                        {
-                            "station": {
-                                "coordinate": {
-                                    "lat": 51.88301,
-                                    "lng": 5.27127
-                                },
-                                "countryCode": "NL",
-                                "name": "Geldermalsen",
-                                "stationCode": "GDM",
-                                "uicCode": "8400244"
-                            },
-                            "description": "vanaf de bushalte"
-                        },
-                        {
-                            "station": {
-                                "coordinate": {
-                                    "lat": 51.8088874816895,
-                                    "lng": 5.26333332061768
-                                },
-                                "countryCode": "NL",
-                                "name": "Zaltbommel",
-                                "stationCode": "ZBM",
-                                "uicCode": "8400732"
-                            },
-                            "description": "vanaf de voorzijde van het station"
-                        },
-                        {
-                            "station": {
-                                "coordinate": {
-                                    "lat": 51.69048,
-                                    "lng": 5.29362
-                                },
-                                "countryCode": "NL",
-                                "name": "'s-Hertogenbosch",
-                                "stationCode": "HT",
-                                "uicCode": "8400319"
-                            },
-                            "description": "vanaf de Magistratenlaan aan de achterzijde van het station"
-                        }
-                    ],
-                    "label": "Er rijden stopbussen tussen Geldermalsen, Zaltbommel en 's-Hertogenbosch.",
-                    "shortLabel": "Er rijden stopbussen Geldermalsen - Zaltbommel - 's-Hertogenbosch."
                 }
             }
         ]
@@ -4363,6 +3830,199 @@
     },
     {
         "type": "MAINTENANCE",
+        "id": "7005537",
+        "title": "Haarlem - Zandvoort.",
+        "isActive": false,
+        "local": false,
+        "titleSections": [
+            [
+                {
+                    "type": "STATION",
+                    "value": "Haarlem"
+                },
+                {
+                    "type": "ICON",
+                    "value": "MAINTENANCE"
+                },
+                {
+                    "type": "STATION",
+                    "value": "Zandvoort"
+                }
+            ]
+        ],
+        "registrationTime": "2024-10-16T11:04:44+0200",
+        "start": "2024-10-20T18:00:00+0200",
+        "releaseTime": "2024-10-16T11:04:44+0200",
+        "end": "2024-10-21T06:00:00+0200",
+        "period": "Zondag 20 oktober 18:00 uur t/m maandag 21 oktober 6:00 uur.",
+        "impact": {
+            "value": 2
+        },
+        "publicationSections": [
+            {
+                "section": {
+                    "stations": [
+                        {
+                            "coordinate": {
+                                "lat": 52.3877792358398,
+                                "lng": 4.63833332061768
+                            },
+                            "countryCode": "NL",
+                            "name": "Haarlem",
+                            "stationCode": "HLM",
+                            "uicCode": "8400285"
+                        },
+                        {
+                            "coordinate": {
+                                "lat": 52.3911094665527,
+                                "lng": 4.6061110496521
+                            },
+                            "countryCode": "NL",
+                            "name": "Overveen",
+                            "stationCode": "OVN",
+                            "uicCode": "8400501"
+                        },
+                        {
+                            "coordinate": {
+                                "lat": 52.3752784729004,
+                                "lng": 4.53277778625488
+                            },
+                            "countryCode": "NL",
+                            "name": "Zandvoort aan Zee",
+                            "stationCode": "ZVT",
+                            "uicCode": "8400733"
+                        }
+                    ],
+                    "direction": "BOTH"
+                },
+                "consequence": {
+                    "section": {
+                        "stations": [
+                            {
+                                "coordinate": {
+                                    "lat": 52.3877792358398,
+                                    "lng": 4.63833332061768
+                                },
+                                "countryCode": "NL",
+                                "name": "Haarlem",
+                                "stationCode": "HLM",
+                                "uicCode": "8400285"
+                            },
+                            {
+                                "coordinate": {
+                                    "lat": 52.3911094665527,
+                                    "lng": 4.6061110496521
+                                },
+                                "countryCode": "NL",
+                                "name": "Overveen",
+                                "stationCode": "OVN",
+                                "uicCode": "8400501"
+                            },
+                            {
+                                "coordinate": {
+                                    "lat": 52.3752784729004,
+                                    "lng": 4.53277778625488
+                                },
+                                "countryCode": "NL",
+                                "name": "Zandvoort aan Zee",
+                                "stationCode": "ZVT",
+                                "uicCode": "8400733"
+                            }
+                        ],
+                        "direction": "ONE_WAY"
+                    },
+                    "description": "rijden bussen",
+                    "level": "LESS_TRAINS"
+                },
+                "sectionType": "NL"
+            }
+        ],
+        "summaryAdditionalTravelTime": {
+            "label": "De extra reistijd is ongeveer 15 minuten.",
+            "shortLabel": "Extra reistijd 15 min.",
+            "minimumDurationInMinutes": 15,
+            "maximumDurationInMinutes": 15
+        },
+        "timespans": [
+            {
+                "start": "2024-10-20T18:00:00+0200",
+                "end": "2024-10-21T06:00:00+0200",
+                "period": "Zondag 20 oktober 18:00 uur t/m maandag 21 oktober 6:00 uur.",
+                "situation": {
+                    "label": "Door herstelwerkzaamheden: tussen Haarlem en Zandvoort aan Zee rijden er bussen."
+                },
+                "cause": {
+                    "label": "herstelwerkzaamheden"
+                },
+                "additionalTravelTime": {
+                    "label": "De extra reistijd is ongeveer 15 minuten.",
+                    "shortLabel": "Extra reistijd 15 min.",
+                    "minimumDurationInMinutes": 15,
+                    "maximumDurationInMinutes": 15
+                },
+                "alternativeTransport": {
+                    "label": "er rijden bussen",
+                    "shortLabel": "er rijden bussen"
+                },
+                "advices": [
+                    "De reisplanner is vanaf zaterdag 19 okt bijgewerkt."
+                ]
+            }
+        ],
+        "alternativeTransportTimespans": [
+            {
+                "start": "2024-10-20T18:00:00+0200",
+                "end": "2024-10-21T01:00:00+0200",
+                "alternativeTransport": {
+                    "location": [
+                        {
+                            "station": {
+                                "coordinate": {
+                                    "lat": 52.3877792358398,
+                                    "lng": 4.63833332061768
+                                },
+                                "countryCode": "NL",
+                                "name": "Haarlem",
+                                "stationCode": "HLM",
+                                "uicCode": "8400285"
+                            },
+                            "description": "vanaf de Jansweg"
+                        },
+                        {
+                            "station": {
+                                "coordinate": {
+                                    "lat": 52.3911094665527,
+                                    "lng": 4.6061110496521
+                                },
+                                "countryCode": "NL",
+                                "name": "Overveen",
+                                "stationCode": "OVN",
+                                "uicCode": "8400501"
+                            },
+                            "description": "vanaf de voorzijde van het station"
+                        },
+                        {
+                            "station": {
+                                "coordinate": {
+                                    "lat": 52.3752784729004,
+                                    "lng": 4.53277778625488
+                                },
+                                "countryCode": "NL",
+                                "name": "Zandvoort aan Zee",
+                                "stationCode": "ZVT",
+                                "uicCode": "8400733"
+                            },
+                            "description": "vanaf de voorzijde van het station"
+                        }
+                    ],
+                    "label": "Er rijden bussen tussen Haarlem, Overveen en Zandvoort aan Zee.",
+                    "shortLabel": "Er rijden bussen Haarlem - Overveen - Zandvoort."
+                }
+            }
+        ]
+    },
+    {
+        "type": "MAINTENANCE",
         "id": "7005265",
         "title": "Heerlen - Aachen Hbf.",
         "isActive": false,
@@ -5014,9 +4674,9 @@
                 }
             ]
         ],
-        "registrationTime": "2024-10-11T15:21:46+0200",
+        "registrationTime": "2024-10-15T15:13:00+0200",
         "start": "2024-10-22T01:00:00+0200",
-        "releaseTime": "2024-10-11T15:21:46+0200",
+        "releaseTime": "2024-10-15T15:13:00+0200",
         "end": "2024-11-04T05:00:00+0100",
         "period": "Dinsdag 22 oktober 1:00 uur t/m maandag 4 november 5:00 uur.",
         "impact": {
@@ -5326,9 +4986,9 @@
                     "shortLabel": "gebruik het vervangende vervoer"
                 },
                 "advices": [
-                    "Reis tussen Rotterdam C en Delft Campus via Rotterdam Blaak en met metro tussen Blaak en Schiedam C. Uw NS-vervoerbewijs is geldig op deze metrolijn.",
-                    "Tussen Den Haag C. en Rotterdam C. reis via Gouda.",
-                    "Tussen Rotterdam C. en Delft reis via Blaak en Schiedam C."
+                    "Reisplanner is vanaf maandag 21 okt bijgewerkt. Reis tussen Blaak en Schiedam C met metro A, B of C. Uw NS-vervoerbewijs is geldig in metro.",
+                    "Tussen Rotterdam C. en Delft reis via Blaak en Schiedam C.",
+                    "Tussen Den Haag C. en Rotterdam C. reis via Gouda."
                 ]
             },
             {
@@ -9113,6 +8773,355 @@
             }
         ],
         "alternativeTransportTimespans": []
+    },
+    {
+        "type": "MAINTENANCE",
+        "id": "7005396",
+        "title": "Venlo - Mönchengladbach - Düsseldorf.",
+        "isActive": false,
+        "local": false,
+        "titleSections": [
+            [
+                {
+                    "type": "STATION",
+                    "value": "Venlo"
+                },
+                {
+                    "type": "ICON",
+                    "value": "MAINTENANCE"
+                },
+                {
+                    "type": "STATION",
+                    "value": "Mönchengladbach"
+                },
+                {
+                    "type": "STATION",
+                    "value": "Düsseldorf Hbf"
+                }
+            ]
+        ],
+        "registrationTime": "2024-10-17T09:58:35+0200",
+        "start": "2024-10-24T20:30:00+0200",
+        "releaseTime": "2024-10-17T09:58:35+0200",
+        "end": "2024-10-25T05:15:00+0200",
+        "period": "Donderdag 24 oktober 20:30 uur t/m vrijdag 25 oktober 5:15 uur.",
+        "impact": {
+            "value": 2
+        },
+        "publicationSections": [
+            {
+                "section": {
+                    "stations": [
+                        {
+                            "coordinate": {
+                                "lat": 51.3636093139648,
+                                "lng": 6.17277765274048
+                            },
+                            "countryCode": "NL",
+                            "name": "Venlo",
+                            "stationCode": "VL",
+                            "uicCode": "8400644"
+                        },
+                        {
+                            "coordinate": {
+                                "lat": 51.327184,
+                                "lng": 6.203225
+                            },
+                            "countryCode": "D",
+                            "name": "Kaldenkirchen",
+                            "stationCode": "KN",
+                            "uicCode": "8015130"
+                        },
+                        {
+                            "coordinate": {
+                                "lat": 51.294615,
+                                "lng": 6.241174
+                            },
+                            "countryCode": "D",
+                            "name": "Breyell",
+                            "stationCode": "KBRY",
+                            "uicCode": "8015129"
+                        },
+                        {
+                            "coordinate": {
+                                "lat": 51.274323,
+                                "lng": 6.274591
+                            },
+                            "countryCode": "D",
+                            "name": "Boisheim",
+                            "stationCode": "KBOI",
+                            "uicCode": "8015128"
+                        },
+                        {
+                            "coordinate": {
+                                "lat": 51.257149,
+                                "lng": 6.33793
+                            },
+                            "countryCode": "D",
+                            "name": "Dülken",
+                            "stationCode": "KDUL",
+                            "uicCode": "8015125"
+                        },
+                        {
+                            "coordinate": {
+                                "lat": 51.25516,
+                                "lng": 6.40388
+                            },
+                            "countryCode": "D",
+                            "name": "Viersen",
+                            "stationCode": "VIERS",
+                            "uicCode": "8015122"
+                        },
+                        {
+                            "coordinate": {
+                                "lat": 51.196583,
+                                "lng": 6.446111
+                            },
+                            "countryCode": "D",
+                            "name": "Mönchengladbach Hbf",
+                            "stationCode": "MCGB",
+                            "uicCode": "8015165"
+                        },
+                        {
+                            "coordinate": {
+                                "lat": 51.20444,
+                                "lng": 6.68468
+                            },
+                            "countryCode": "D",
+                            "name": "Neuss Hbf",
+                            "stationCode": "NEUSS",
+                            "uicCode": "8015149"
+                        },
+                        {
+                            "coordinate": {
+                                "lat": 51.220146,
+                                "lng": 6.793137
+                            },
+                            "countryCode": "D",
+                            "name": "Düsseldorf Hbf",
+                            "stationCode": "DUSSEL",
+                            "uicCode": "8008094"
+                        }
+                    ],
+                    "direction": "BOTH"
+                },
+                "consequence": {
+                    "section": {
+                        "stations": [
+                            {
+                                "coordinate": {
+                                    "lat": 51.3636093139648,
+                                    "lng": 6.17277765274048
+                                },
+                                "countryCode": "NL",
+                                "name": "Venlo",
+                                "stationCode": "VL",
+                                "uicCode": "8400644"
+                            },
+                            {
+                                "coordinate": {
+                                    "lat": 51.327184,
+                                    "lng": 6.203225
+                                },
+                                "countryCode": "D",
+                                "name": "Kaldenkirchen",
+                                "stationCode": "KN",
+                                "uicCode": "8015130"
+                            },
+                            {
+                                "coordinate": {
+                                    "lat": 51.294615,
+                                    "lng": 6.241174
+                                },
+                                "countryCode": "D",
+                                "name": "Breyell",
+                                "stationCode": "KBRY",
+                                "uicCode": "8015129"
+                            },
+                            {
+                                "coordinate": {
+                                    "lat": 51.274323,
+                                    "lng": 6.274591
+                                },
+                                "countryCode": "D",
+                                "name": "Boisheim",
+                                "stationCode": "KBOI",
+                                "uicCode": "8015128"
+                            },
+                            {
+                                "coordinate": {
+                                    "lat": 51.257149,
+                                    "lng": 6.33793
+                                },
+                                "countryCode": "D",
+                                "name": "Dülken",
+                                "stationCode": "KDUL",
+                                "uicCode": "8015125"
+                            },
+                            {
+                                "coordinate": {
+                                    "lat": 51.25516,
+                                    "lng": 6.40388
+                                },
+                                "countryCode": "D",
+                                "name": "Viersen",
+                                "stationCode": "VIERS",
+                                "uicCode": "8015122"
+                            },
+                            {
+                                "coordinate": {
+                                    "lat": 51.196583,
+                                    "lng": 6.446111
+                                },
+                                "countryCode": "D",
+                                "name": "Mönchengladbach Hbf",
+                                "stationCode": "MCGB",
+                                "uicCode": "8015165"
+                            }
+                        ],
+                        "direction": "ONE_WAY"
+                    },
+                    "description": "rijden bussen",
+                    "level": "LESS_TRAINS"
+                },
+                "sectionType": "NEIGHBORING_COUNTRY"
+            }
+        ],
+        "summaryAdditionalTravelTime": {
+            "label": "De extra reistijd is ongeveer 45 minuten.",
+            "shortLabel": "Extra reistijd 45 min.",
+            "minimumDurationInMinutes": 45,
+            "maximumDurationInMinutes": 45
+        },
+        "timespans": [
+            {
+                "start": "2024-10-24T20:30:00+0200",
+                "end": "2024-10-25T05:15:00+0200",
+                "period": "Donderdag 24 oktober 20:30 uur t/m vrijdag 25 oktober 5:15 uur.",
+                "situation": {
+                    "label": "Door werkzaamheden: tussen Venlo en Mönchengladbach Hbf rijden er bussen."
+                },
+                "cause": {
+                    "label": "werkzaamheden"
+                },
+                "additionalTravelTime": {
+                    "label": "De extra reistijd is ongeveer 45 minuten.",
+                    "shortLabel": "Extra reistijd 45 min.",
+                    "minimumDurationInMinutes": 45,
+                    "maximumDurationInMinutes": 45
+                },
+                "alternativeTransport": {
+                    "label": "er rijden stopbussen",
+                    "shortLabel": "er rijden stopbussen"
+                },
+                "advices": [
+                    "Tot begin december zijn er tussen 20.30 en 06.00 uur regelmatig werkzaamheden waarbij bussen worden ingezet."
+                ]
+            }
+        ],
+        "alternativeTransportTimespans": [
+            {
+                "start": "2024-10-24T20:30:00+0200",
+                "end": "2024-10-25T05:15:00+0200",
+                "alternativeTransport": {
+                    "location": [
+                        {
+                            "station": {
+                                "coordinate": {
+                                    "lat": 51.3636093139648,
+                                    "lng": 6.17277765274048
+                                },
+                                "countryCode": "NL",
+                                "name": "Venlo",
+                                "stationCode": "VL",
+                                "uicCode": "8400644"
+                            },
+                            "description": "vanaf het busstation"
+                        },
+                        {
+                            "station": {
+                                "coordinate": {
+                                    "lat": 51.327184,
+                                    "lng": 6.203225
+                                },
+                                "countryCode": "D",
+                                "name": "Kaldenkirchen",
+                                "stationCode": "KN",
+                                "uicCode": "8015130"
+                            },
+                            "description": "volg de aanwijzingen op het station"
+                        },
+                        {
+                            "station": {
+                                "coordinate": {
+                                    "lat": 51.294615,
+                                    "lng": 6.241174
+                                },
+                                "countryCode": "D",
+                                "name": "Breyell",
+                                "stationCode": "KBRY",
+                                "uicCode": "8015129"
+                            },
+                            "description": "volg de aanwijzingen op het station"
+                        },
+                        {
+                            "station": {
+                                "coordinate": {
+                                    "lat": 51.274323,
+                                    "lng": 6.274591
+                                },
+                                "countryCode": "D",
+                                "name": "Boisheim",
+                                "stationCode": "KBOI",
+                                "uicCode": "8015128"
+                            },
+                            "description": "volg de aanwijzingen op het station"
+                        },
+                        {
+                            "station": {
+                                "coordinate": {
+                                    "lat": 51.257149,
+                                    "lng": 6.33793
+                                },
+                                "countryCode": "D",
+                                "name": "Dülken",
+                                "stationCode": "KDUL",
+                                "uicCode": "8015125"
+                            },
+                            "description": "volg de aanwijzingen op het station"
+                        },
+                        {
+                            "station": {
+                                "coordinate": {
+                                    "lat": 51.25516,
+                                    "lng": 6.40388
+                                },
+                                "countryCode": "D",
+                                "name": "Viersen",
+                                "stationCode": "VIERS",
+                                "uicCode": "8015122"
+                            },
+                            "description": "volg de aanwijzingen op het station"
+                        },
+                        {
+                            "station": {
+                                "coordinate": {
+                                    "lat": 51.196583,
+                                    "lng": 6.446111
+                                },
+                                "countryCode": "D",
+                                "name": "Mönchengladbach Hbf",
+                                "stationCode": "MCGB",
+                                "uicCode": "8015165"
+                            },
+                            "description": "volg de aanwijzingen op het station"
+                        }
+                    ],
+                    "label": "Er rijden stopbussen tussen Venlo, Kaldenkirchen, Breyell, Boisheim, Dülken, Viersen en Mönchengladbach Hbf.",
+                    "shortLabel": "Er rijden stopbussen Venlo - Kaldenkirchen - Breyell - Boisheim - Dülken - Viersen - Mönchengladbach."
+                }
+            }
+        ]
     },
     {
         "type": "MAINTENANCE",
@@ -13112,9 +13121,9 @@
                 }
             ]
         ],
-        "registrationTime": "2024-08-27T11:34:26+0200",
+        "registrationTime": "2024-10-16T10:50:51+0200",
         "start": "2024-10-26T05:00:00+0200",
-        "releaseTime": "2024-08-27T11:34:26+0200",
+        "releaseTime": "2024-10-16T10:50:51+0200",
         "end": "2024-10-28T02:00:00+0100",
         "period": "Zaterdag 26 oktober 5:00 uur t/m maandag 28 oktober 2:00 uur.",
         "impact": {
@@ -13318,7 +13327,7 @@
         ],
         "summaryAdditionalTravelTime": {
             "label": "U heeft geen langere reistijd.",
-            "shortLabel": "Geen extra reistijd"
+            "shortLabel": "Geen extra reistijd."
         },
         "timespans": [
             {
@@ -13333,7 +13342,7 @@
                 },
                 "additionalTravelTime": {
                     "label": "U heeft geen langere reistijd.",
-                    "shortLabel": "Geen extra reistijd"
+                    "shortLabel": "Geen extra reistijd."
                 },
                 "advices": []
             }
@@ -18879,9 +18888,9 @@
                 }
             ]
         ],
-        "registrationTime": "2024-10-12T10:08:34+0200",
+        "registrationTime": "2024-10-16T11:00:05+0200",
         "start": "2024-11-09T01:00:00+0100",
-        "releaseTime": "2024-10-12T10:08:34+0200",
+        "releaseTime": "2024-10-16T11:00:05+0200",
         "end": "2024-11-11T05:30:00+0100",
         "period": "Zaterdag 9 november 1:00 uur t/m maandag 11 november 5:30 uur.",
         "impact": {
@@ -19284,8 +19293,8 @@
                     "maximumDurationInMinutes": 45
                 },
                 "alternativeTransport": {
-                    "label": "er rijden stop- en snelbussen",
-                    "shortLabel": "er rijden stop- en snelbussen"
+                    "label": "er rijden stopbussen",
+                    "shortLabel": "er rijden stopbussen"
                 },
                 "advices": [
                     "Reis tussen Amsterdam C. en Den Haag C. met de rechtstreekse omgeleide Intercity.",
@@ -19303,14 +19312,14 @@
                     "label": "werkzaamheden"
                 },
                 "additionalTravelTime": {
-                    "label": "De extra reistijd is ongeveer 45 minuten.",
-                    "shortLabel": "Extra reistijd 45 min.",
-                    "minimumDurationInMinutes": 45,
-                    "maximumDurationInMinutes": 45
+                    "label": "De extra reistijd is ongeveer 30 minuten.",
+                    "shortLabel": "Extra reistijd 30 min.",
+                    "minimumDurationInMinutes": 30,
+                    "maximumDurationInMinutes": 30
                 },
                 "alternativeTransport": {
-                    "label": "er rijden stop- en snelbussen",
-                    "shortLabel": "er rijden stop- en snelbussen"
+                    "label": "er rijden stopbussen",
+                    "shortLabel": "er rijden stopbussen"
                 },
                 "advices": [
                     "Reis tussen Amsterdam C. en Den Haag C. met de rechtstreekse omgeleide Intercity.",
@@ -19364,8 +19373,8 @@
                             "description": "vanaf de achterzijde van het station"
                         }
                     ],
-                    "label": "Er rijden bussen tussen Leiden Centraal, Den Haag Laan v NOI en Den Haag HS.",
-                    "shortLabel": "Er rijden bussen Leiden C. - Laan v NOI - Den Haag HS."
+                    "label": "Er rijden stopbussen tussen Leiden Centraal, Den Haag Laan v NOI en Den Haag HS.",
+                    "shortLabel": "Er rijden stopbussen Leiden C. - Laan v NOI - Den Haag HS."
                 }
             },
             {
@@ -19436,7 +19445,7 @@
                                 "stationCode": "GV",
                                 "uicCode": "8400280"
                             },
-                            "description": "volg de aanwijzingen op het station"
+                            "description": "vanaf de achterzijde van het station"
                         }
                     ],
                     "label": "Er rijden stopbussen van Leiden Centraal, Voorschoten, Den Haag Mariahoeve, Den Haag Laan v NOI naar Den Haag HS.",
@@ -19599,8 +19608,8 @@
                             "description": "vanaf het stadsbusstation"
                         }
                     ],
-                    "label": "Er rijden bussen tussen Den Haag HS en Leiden Centraal.",
-                    "shortLabel": "Er rijden bussen Den Haag HS - Leiden C."
+                    "label": "Er rijden stopbussen tussen Den Haag HS en Leiden Centraal.",
+                    "shortLabel": "Er rijden stopbussen Den Haag HS - Leiden C."
                 }
             },
             {
@@ -19684,8 +19693,8 @@
                             "description": "vanaf het stadsbusstation"
                         }
                     ],
-                    "label": "Er rijden bussen tussen Den Haag HS en Leiden Centraal.",
-                    "shortLabel": "Er rijden bussen Den Haag HS - Leiden C."
+                    "label": "Er rijden stopbussen tussen Den Haag HS en Leiden Centraal.",
+                    "shortLabel": "Er rijden stopbussen Den Haag HS - Leiden C."
                 }
             }
         ]
