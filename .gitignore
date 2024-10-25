@@ -1,2 +1,33 @@
 
 GTFS/stop_times.txt
+travelcoach-frontend/src/app/nlBusData/GTFS/agency.txt
+travelcoach-frontend/src/app/nlBusData/GTFS/calendar.txt
+travelcoach-frontend/src/app/nlBusData/GTFS/calendar_dates.txt
+travelcoach-frontend/src/app/nlBusData/GTFS/feed_info.txt
+travelcoach-frontend/src/app/nlBusData/GTFS/routes.txt
+travelcoach-frontend/src/app/nlBusData/GTFS/shapes.txt
+travelcoach-frontend/src/app/nlBusData/GTFS/stop_times.txt
+travelcoach-frontend/src/app/nlBusData/GTFS/stops.txt
+travelcoach-frontend/src/app/nlBusData/GTFS/transfers.txt
+travelcoach-frontend/src/app/nlBusData/GTFS/trips.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/textFiles/improved-gtfs-gtfs-nl/trips.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/textFiles/improved-gtfs-gtfs-nl/transfers.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/textFiles/improved-gtfs-gtfs-nl/stops.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/textFiles/improved-gtfs-gtfs-nl/stop_times.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/textFiles/improved-gtfs-gtfs-nl/shapes.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/textFiles/improved-gtfs-gtfs-nl/routes.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/textFiles/improved-gtfs-gtfs-nl/feed_info.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/textFiles/improved-gtfs-gtfs-nl/calendar_dates.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/textFiles/improved-gtfs-gtfs-nl/calendar.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/textFiles/improved-gtfs-gtfs-nl/agency.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/service/gtfs/source/improved/improved-gtfs-gtfs-nl/agency.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/service/gtfs/source/improved/improved-gtfs-gtfs-nl/calendar.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/service/gtfs/source/improved/improved-gtfs-gtfs-nl/calendar_dates.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/service/gtfs/source/improved/improved-gtfs-gtfs-nl/feed_info.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/service/gtfs/source/improved/improved-gtfs-gtfs-nl/routes.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/service/gtfs/source/improved/improved-gtfs-gtfs-nl/shapes.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/service/gtfs/source/improved/improved-gtfs-gtfs-nl/stop_times.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/service/gtfs/source/improved/improved-gtfs-gtfs-nl/stops.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/service/gtfs/source/improved/improved-gtfs-gtfs-nl/transfers.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/service/gtfs/source/improved/improved-gtfs-gtfs-nl/trips.txt
+iO_travelCoach/src/main/java/iodigital/io_travelcoach/service/gtfs/source/improved/improved-gtfs-gtfs-nl (1).zip

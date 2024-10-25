@@ -1,0 +1,14 @@
+{
+  "agency": "BRAVO",
+  "gtfs_static": "app/nlBusData/improved-gtfs-gtfs-nl.zip",
+  "gtfs_realtime_trip_updates": "https://path-to-realtime-trip-update-feed",
+  "gtfs_realtime_vehicle_positions": "https://path-to-vehicle-position-feed",
+  "stops": [
+    {
+      "stop_id": "s-u15ustj359-eindhovenstation",
+      "name": "Eindhoven, Station"
+    }
+  ],
+  "refresh_interval": 30,
+  "number_of_departures": 5
+}

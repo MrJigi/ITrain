@@ -1,0 +1,163 @@
+.wrapperWindow {
+    background: #f19771;
+    width: 25rem;
+    max-height: 600px;
+    /*height: 100%;*/
+    overflow: auto;
+    /*height: 600px;*/
+    border: solid 3px #c97ee0;
+}
+.wrapperGridBox .scheduleList .scheduleListItem{
+
+    display: grid;
+    align-content: center;
+    position: relative;
+    left: 0;
+    color: #444444;
+    list-style: none;
+    margin: 4px 0;
+    border-left: 2px solid #0017EE;
+    transition: 0.5s;
+    cursor: pointer;
+    /*justify-content: space-around;*/
+    /*justify-items: center;*/
+
+}
+/*Darkens each span item in the box*/
+.wrapperGridBox .scheduleList .scheduleListItem :hover{
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    /*left: 10px;*/
+}
+
+.wrapperGridBox .scheduleList .scheduleListItem::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0017EE;
+
+    opacity: 80%;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+}
+
+
+
+/* Interanction of hovers*/
+
+/*.scheduleListItem:hover .scheduleShortInfo {*/
+/*    display: none;*/
+/*}*/
+.scheduleListItem:hover .scheduleLongInfo {
+    display: flex;
+    /*transform: scaleX(0);*/
+    transform-origin: left;
+    transition: 0.5s;
+
+    /*white-space: nowrap;*/
+}
+/*.scheduleShortinfo .scheduleLongInfo {*/
+/*    transform: scaleX(0);*/
+/*    transform-origin: left;*/
+/*    transition: 0.5s;*/
+/*}*/
+
+
+/*.scheduleShortInfo{*/
+/*    display: block;*/
+/*}*/
+
+.scheduleLongInfo{
+    display: none;
+    color: #444444;
+}
+
+
+.scheduleListItem{
+    position: relative;
+    height: 200px;
+    /*margin: 10px 0;*/
+    /*padding: 10px;*/
+    /*width: 200px;*/
+    /*background-image: url("../../img/16712163761_f4ffa42af2_b-4255600090.jpg");*/
+    /*background: #0a0a0a;*/
+    /*opacity: 80%;*/
+    background-size: cover;
+    overflow: hidden;
+    /*transition: all 0.3s ease;*/
+    white-space: nowrap;
+}
+.scheduleListItem::after {
+    /*background-image: url("../../img/16712163761_f4ffa42af2_b-4255600090.jpg");*/
+    z-index: 1;
+    background: #0a0a0a;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+
+}
+
+.wrapperGridBox .scheduleList .scheduleListItem span {
+    position: relative;
+    padding: 8px;
+    /*padding-left: 12px;*/
+
+    /*display: inline-block;*/
+    z-index: 1;
+    transition: 0.5s;
+
+}
+
+.wrapperGridBox .scheduleList .scheduleListItem:hover span {
+    color: #F4F1ED;
+}
+
+.wrapperGridBox .scheduleList .scheduleListItem:hover::before {
+transform: scaleX(1);
+}
+
+
+.scheduleList{
+
+}
+
+
+/* End of text decoration*/
+
+/*.menuLink {*/
+/*    text-decoration: none;*/
+/*    color: #0a0a0a;*/
+/*    background-color: rgb(235,235,185);*/
+/*    -webkit-transition: color .25s linear;*/
+/*    transition: color .25s linear;*/
+/*    transition: background-color .15s linear .1s;*/
+
+/*}*/
+
+/*a.menuLink:hover {*/
+/*    text-decoration: none;*/
+/*    color: #ffffff;*/
+/*    background-color: rgb(255,24,24);*/
+
+/*}*/
+/*!*One lb item*!*/
+/*.scheduleWindow {*/
+/*    background: #e0c97e;*/
+/*    margin: 3px;*/
+/*    gap: 3px;*/
+/*    width: auto;*/
+/*    height: 4rem;*/
+/*    border: solid 3px #c97ee0;*/
+
+
+/*}*/
+
+/*.scheduleWindow:hover {*/
+/*    background: #7ee0c9;*/
+/*    transition: width 2s, height 4s;*/
+
+/*    transition-property: width;*/
+/*    transition-duration: 2s;*/
+/*    transition-timing-function: linear;*/
+/*    transition-delay: 1s;*/
+/*    !*transform: translateZ(0) scale(1.0, 1.0);*!*/
+/*}*/

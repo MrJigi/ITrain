@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+}
+
+.stickySlider {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.stickySlider ul {
+    list-style: none;
+    padding: 0;
+}
+
+.stickySlider ul li {
+    margin-bottom: 10px;
+}
+
+.stickySlider ul li button {
+    background: none;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.stickySlider ul li button:hover {
+    color: #007bff;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.step {
+    margin-bottom: 20px;
+}
+
+.map {
+    height: 300px;
+    background-color: #eee;
+    margin-top: 20px;
+}

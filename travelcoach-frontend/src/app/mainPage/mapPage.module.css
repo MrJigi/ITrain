@@ -1,0 +1,112 @@
+.wrapperPanel{
+    /*display: block;*/
+    position: relative;
+    flex-grow: 1;
+    /*background-color: #f0f0f0;*/
+    /*display: flex;*/
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*height: 100vh; !* Full height *!*/
+    /*width: auto;*/
+    /*height: auto;*/
+}
+/* Example area for card areas*/
+.card {
+background: forestgreen;
+/*padding: calc(4 * var(3px));*/
+/*margin-top: calc(4 * 3px);*/
+/*border-radius: 3px;*/
+/*border: 3px solid #0017EE ;*/
+/*box-shadow: .5rem .5rem 0 #0017EE;*/
+
+
+}
+
+/*End of example */
+.travelDestinationPlanel{
+    width: 100%;
+    height: 200px;
+    background: #0017EE;
+}
+
+.stickyPanel{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Example styling */
+    color: white;
+    padding: 10px;
+    z-index: 1; /* Lower z-index than the side panel */
+}
+
+.sidePanel{
+    /*position: absolute;*/
+    /*left: 0;*/
+    top: 0;
+    /*width: 400px; !* Adjust the width as needed *!*/
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Example styling */
+    /*z-index: 10; !* Ensure it's above the sticky div *!*/
+    /*transform: translateX(-100%); !* Hide the panel by default *!*/
+    transition: transform 0.3s ease;
+}
+.sidePanel.active {
+    transform: translateX(0); /* Show the panel when active */
+}
+.mainPanel{
+    bottom: 3px;
+}
+
+
+/*------------------------Step content------------------------------------------------------------*/
+
+
+.container {
+    display: flex;
+}
+
+.stickySlider {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.stickySlider ul {
+    list-style: none;
+    padding: 0;
+}
+
+.stickySlider ul li {
+    margin-bottom: 10px;
+}
+
+.stickySlider ul li button {
+    background: none;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.stickySlider ul li button:hover {
+    color: #007bff;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.step {
+    margin-bottom: 20px;
+}
+
+.map {
+    height: 300px;
+    background-color: #eee;
+    margin-top: 20px;
+}

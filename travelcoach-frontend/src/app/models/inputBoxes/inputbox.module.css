@@ -1,0 +1,325 @@
+
+.inputWrapper{
+    /*width: 400px;*/
+    height: 200px;
+    background-color: #eda756;
+    border-radius: 5%;
+    /*display: flex;*/
+    padding: 6px;
+    margin: 4px;
+}
+.input__field {
+    font-size: 1rem;
+    vertical-align: top;
+    margin-bottom: 0;
+    background-color: #ededed;
+}
+
+.optionButton{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px;
+    height: 50px;
+    width: 100%;
+    background-color: #eaa14e;
+
+    /*border: 3px black solid;*/
+    border-bottom: 3px #171ae3 solid;
+}
+
+.optionButton:hover{
+    border-image: linear-gradient(to right, #0017EE,#eda756);
+    border-image-slice: 1;
+
+    box-shadow: rgba(0, 2, 5, 0.44) 2px 1px 4px 0;
+}
+
+.additionalOptions{
+
+    cursor: pointer;
+    display: flex;
+    gap: 6px;
+    justify-content: space-between;
+    /*height: 250px;*/
+    width: 250px;
+    /*border: black;*/
+    /*border-bottom: 1px black solid;*/
+    /*background-color: #ededed;*/
+}
+
+.switchButton{
+    background: none;
+    border: none;
+    border-radius: 35%;
+
+    /*box-shadow: #ffffff 2px 1px 14px 0;*/
+    padding: 1px;
+    margin: 20px
+}
+
+.buttonLabel{
+    z-index: 1;
+    pointer-events: none;
+}
+
+.switchButton:hover{
+    box-shadow: #000000 2px 2px 3px 1px;
+}
+
+.exchangePic {
+    /*background-image: url(../../img/exchange.png);*/
+
+    width: 40px;
+    height: 40px;
+}
+.inputLabel{
+    color: #0017EE;
+    margin: 5px;
+}
+.inputButtonWrap{
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    align-items: center; /* Align buttons vertically in the center */
+    padding: 2px;
+    gap: 4px;
+    margin: 3px;
+    /*width: 150px;*/
+}
+
+.inputButton:hover {
+    box-shadow: #0017EE 2px 2px 5px 1px;
+}
+
+.inputButton{
+
+    background-color: #0017EE;
+    border: solid 2px black;
+    height: 40px;
+    width: 4rem;
+    padding: 3px;
+    border-radius: 25%;
+}
+.input_group_wrapper{
+    display: flex;
+
+    /*padding: 6px;*/
+    /*margin: 4px;*/
+    /*background-color: #c97ee0;*/
+}
+
+.card{
+    background-color: #0017EE;
+
+    /*background: forestgreen;*/
+    /*padding: calc(4 * var(3px));*/
+    /*margin-top: calc(4 * 3px);*/
+    /*border-radius: 3px;*/
+    /*border: 3px solid #0017EE ;*/
+    /*box-shadow: .5rem .5rem 0 #0017EE;*/
+}
+/*Input field box*/
+/*$primary: #11998e;*/
+/*$secondary: #38ef7d;*/
+/*$white: #fff;*/
+/*$gray: #9b9b9b;*/
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 1rem;
+    /*vertical-align: top;*/
+    margin-bottom: 0;
+}
+
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid ;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+
+    &::placeholder {
+        color: transparent;
+    }
+
+    &:placeholder-shown ~ .form__label {
+        font-size: 1.3rem;
+        cursor: text;
+        top: 20px;
+    }
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: gray;
+}
+
+.form__field:focus {
+    ~ .form__label {
+        position: absolute;
+        top: 0;
+        display: block;
+        transition: 0.2s;
+        font-size: 1rem;
+        color: #0017EE;
+        font-weight:700;
+    }
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #0017EE,#eda756);
+    border-image-slice: 1;
+}
+/* reset input */
+
+.form__field{
+    &:required,&:invalid { box-shadow:none; }
+}
+/*Reset drop down */
+
+.ul {
+    background: darkorange;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.li {
+    color: #fff;
+    background: darkorange;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.li a {
+    color: #fff;
+}
+
+.li:hover,
+.li:focus-within {
+    background: red;
+    cursor: pointer;
+}
+
+.li:focus-within a {
+    outline: none;
+}
+
+.ul li ul {
+    background: orange;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+.ul li:hover > ul,
+.ul li:focus-within > ul,
+.ul li ul:hover,
+.ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block
+}
+
+.ul li ul li {
+    clear: both;
+    width: 100%;
+}
+/**/
+
+
+
+/* demo */
+.card {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 1.5rem;
+    background-color:#222222;
+}
+
+
+
+/*Input field box end*/
+
+.inputSection{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.inputSearch{
+    width: 80%;
+    height: 100%;
+    padding: 0 20px;
+    /*border: none;*/
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    color: #333;
+    transition: width 0.4s ease-in-out;
+    margin: 5px;
+}
+
+.inputSearch:focus{
+    width: 100%;
+    padding-right: 50px;
+}
+
+.searchIcon{
+    position: absolute;
+    right: 10px;
+    font-size: 24px;
+    color: #229091;
+    pointer-events: none; /* So the input field gets focus */
+    transition: color 0.3s ease;
+}
+
+
+.inputSection:hover{
+    color: #1e7a74;
+}
+
+/* Placeholder Text Styling */
+.inputSection::placeholder {
+    color: #888;
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+/* Focused Input Animation */
+.inputSection:focus + .search-icon {
+    color: #0a5c55;
+}

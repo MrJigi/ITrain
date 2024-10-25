@@ -1,0 +1,90 @@
+.ElectricCarButton{
+
+    width: 50px;
+    height: 50px;
+    background-image: url("../../img/ev-charger-location.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.slider{
+    width: 50px;
+    height: 50px;
+    background-image: url("../../img/ev-charger-location.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*position: absolute;*/
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #30d533;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.toggle-button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.show-markers {
+    background-color: green;
+}
+
+.hide-markers {
+    background-color: red;
+}
+
+
+.slider:before {
+    /*position: absolute;*/
+    background-color: white;
+
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+/*Leaflet box props*/
+/* Customize the routing container */
+/*.leaflet-routing-container {*/
+/*    background-color: #c86b3a !important;  !* Change the background color *!*/
+/*    color: white !important;                 !* Change text color *!*/
+/*    font-family: Arial, sans-serif;          !* Customize the font *!*/
+/*    border-radius: 8px;                      !* Add rounded corners *!*/
+/*    padding: 10px;                           !* Add padding *!*/
+/*}*/
+
+/*!* Customize the geocoder input boxes (for start and end points) *!*/
+/*.leaflet-routing-geocoders input {*/
+/*    background-color: #bd2a2a !important;      !* Change input background color *!*/
+/*    color: black !important;                 !* Change input text color *!*/
+/*    border: 1px solid #ccc;                  !* Add border to input boxes *!*/
+/*    padding: 5px;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*!* Customize the alternative routes section *!*/
+/*.leaflet-routing-alternatives-container {*/
+/*    background-color: rgba(60, 51, 51, 0.6);    !* Semi-transparent background *!*/
+/*    border-radius: 8px;                      !* Add rounded corners *!*/
+/*    color: white !important;*/
+/*}*/
+
+/*!* Customize the routing form *!*/
+/*.leaflet-routing-form {*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*Leaflet box props*/
