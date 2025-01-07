@@ -1,5 +1,6 @@
 package iodigital.io_travelcoach.model.tripPlanner;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -11,9 +12,11 @@ import java.util.List;
 @NoArgsConstructor
 @Getter
 @Setter
+@JsonIgnoreProperties(ignoreUnknown = true)
+
 public class TripDetails {
 
 
-    private List<FareLegs> fareLegs;
-    private List<Stop> stops;
+    public List<FareLegs> fareLegs;
+    public List<NSStop> NSStops;
 }

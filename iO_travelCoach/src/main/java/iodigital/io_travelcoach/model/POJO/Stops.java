@@ -23,7 +23,6 @@ public class Stops {
     private String stop_url;
     @JsonProperty("location_type")
     private String location_type;
-
     @JsonProperty("parent_station")
     private String parent_station;
     @JsonProperty("stop_desc")

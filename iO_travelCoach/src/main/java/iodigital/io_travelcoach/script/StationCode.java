@@ -1,5 +1,7 @@
 package iodigital.io_travelcoach.script;
 
+import org.springframework.stereotype.Component;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -9,6 +11,7 @@ import java.util.Map;
 
 
 
+@Component
 public class StationCode {
 
     public StationCode() {

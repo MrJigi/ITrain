@@ -9,9 +9,9 @@ import lombok.Setter;
 public class Shapes {
     @JsonProperty("shape_id")
     private String shape_id;
-    @JsonProperty("shape_id")
+    @JsonProperty("shape_pt_lat")
     private double shape_pt_lat;
-    @JsonProperty("shape_id")
+    @JsonProperty("shape_pt_lon")
     private double shape_pt_lon;
     @JsonProperty("shape_pt_sequence")
     private double shape_pt_sequence;

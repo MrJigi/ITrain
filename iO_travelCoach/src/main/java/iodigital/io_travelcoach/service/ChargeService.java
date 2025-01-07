@@ -39,7 +39,7 @@ public class ChargeService {
         HttpEntity<String> entity = new HttpEntity<>(headers);
 
         ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.GET,entity, String.class );
-        System.out.println(response.getBody().toString());
+//        System.out.println(response.getBody().toString());
 
 
 

@@ -1,0 +1,19 @@
+.map-container {
+    margin: 20px;
+}
+
+.search-bar {
+    margin-bottom: 10px;
+}
+
+.train-route {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.train-route h4 {
+    color: #007bff;
+}

@@ -1,41 +1,42 @@
 import styles from "./page.module.css";
 // import Link from "next/link";
-import Schedule from "@/app/models/schedule/schedule";
+/*import Schedule from "@/app/models/schedule/schedule";
 import Transportation from "@/app/models/transportationOptions/transportation";
 import Mapoverview from "@/app/models/mapOverview/mapoverview";
 import Googlemap from "@/app/models/googleMaps/googlemap";
-import InputBox from "@/app/models/inputBoxes/inputBox";
+import InputBox from "@/app/models/inputBoxes/inputBox";*/
 import MapPage from "@/app/mainPage/mapPage";
-import stepPage from "@/app/stepPage/step";
+// import stepPage from "@/app/stepPage/step";
 import React from "react";
-import GTFSParser from "@/app/models/gtfsMap/busMap";
+// import GTFSParser from "@/app/models/gtfsMap/busMap";
+// import MapComponent from "@/app/models/searchLayer/search";
 
 
 
 export default function Home() {
-  return (
+    return (
 
-          <div className={styles.page}>
-              stuff
-              {/*<h1> Map page </h1>*/}
-              {/*<StepPage></StepPage>*/}
+        <div className={styles.page}>
+            {/*<h1> IO travel coach</h1>*/}
+            {/*<h1> Map page </h1>*/}
+            {/*<StepPage></StepPage>*/}
+{/*<MapComponent></MapComponent>*/}
+            <MapPage/>
+            {/*<Mapoverview/>*/}
+            {/*<GTFSParser></GTFSParser>*/}
+            {/*<div className={styles.scheduleBox}>*/}
+            {/*    <h1>schedule Component</h1>*/}
+            {/*    <Schedule></Schedule>*/}
+            {/*    <h1>transportation Component</h1>*/}
+            {/*    <Transportation></Transportation>*/}
+            {/*    <h1>Leaflet Map Component</h1>*/}
+            {/*    <Mapoverview></Mapoverview>*/}
+            {/*    <h1> google maps</h1>*/}
+            {/*    <Googlemap></Googlemap>*/}
+            {/*    <h1> Input section</h1>*/}
+            {/*    <InputBox></InputBox>*/}
 
-              <MapPage></MapPage>
-                {/*<Mapoverview/>*/}
-              {/*<GTFSParser></GTFSParser>*/}
-              {/*<div className={styles.scheduleBox}>*/}
-              {/*    <h1>schedule Component</h1>*/}
-              {/*    <Schedule></Schedule>*/}
-              {/*    <h1>transportation Component</h1>*/}
-              {/*    <Transportation></Transportation>*/}
-              {/*    <h1>Leaflet Map Component</h1>*/}
-              {/*    <Mapoverview></Mapoverview>*/}
-              {/*    <h1> google maps</h1>*/}
-              {/*    <Googlemap></Googlemap>*/}
-              {/*    <h1> Input section</h1>*/}
-              {/*    <InputBox></InputBox>*/}
-
-              {/*</div>*/}
-          </div>
-  );
-          }
+            {/*</div>*/}
+        </div>
+    );
+}

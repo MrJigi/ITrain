@@ -1,0 +1,89 @@
+/*!* Override the Leaflet routing container styles *!*/
+/*.leaflet-top.leaflet-right .leaflet-routing-container {*/
+/*    width: 300px !important; !* Adjust the width *!*/
+/*    background-color: #f8f9fa !important; !* Change background color *!*/
+/*    padding: 10px !important; !* Add padding *!*/
+/*    border-radius: 8px !important; !* Round the corners *!*/
+/*    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) !important; !* Add shadow *!*/
+/*}*/
+
+/*!* Customize input boxes *!*/
+/*.leaflet-routing-geocoders input {*/
+/*    width: 100% !important; !* Full width *!*/
+/*    margin-bottom: 5px !important; !* Add space between inputs *!*/
+/*}*/
+/*.leaflet-routing-alt tr:hover > tr{color: #0017EE !important;}*/
+/*.leaflet-bar > a:link { color: red; }*/
+/*!* Customize buttons *!*/
+/*.leaflet-routing-container .leaflet-routing-add-waypoint,*/
+/*.leaflet-routing-container button {*/
+/*    background-color: #007bff !important; !* Button color *!*/
+/*    color: white !important; !* Text color *!*/
+/*    border: none !important; !* Remove border *!*/
+/*    padding: 5px 10px !important; !* Adjust padding *!*/
+/*    border-radius: 4px !important; !* Rounded corners *!*/
+/*    cursor: pointer !important;*/
+/*}*/
+
+/*.leaflet-routing-container button:hover {*/
+/*    background-color: #0056b3 !important; !* Darker on hover *!*/
+/*}*/
+
+
+
+/* leafletRoutingMachineBox.css */
+.customRoutingContainer .leaflet-routing-container-hide .leaflet-routing-collapse-btn {
+    position: relative;
+    left: 4px;
+    top: 4px;
+    display: block;
+    width: 40px; /* Custom width */
+    height: 40px; /* Custom height */
+    /*background-image: url('custom-icon.png'); !* Your custom icon *!*/
+}
+
+.customRoutingContainer .leaflet-routing-alt,
+.customRoutingContainer .leaflet-routing-geocoders,
+.customRoutingContainer .leaflet-routing-error {
+    padding: 10px; /* Custom padding */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000; /* Custom border color */
+    max-height: 500px; /* Custom height */
+    overflow-y: auto;
+    transition: all 0.3s ease; /* Custom transition */
+}
+
+.customRoutingContainer .leaflet-routing-container-hide .leaflet-routing-collapse-btn {
+    width: 23rem !important;
+
+    height: 100% !important;
+}
+
+.customRoutingContainer .leaflet-routing-alt,
+.customRoutingContainer .leaflet-routing-geocoders,
+.customRoutingContainer .leaflet-routing-error {
+    /*max-height: 50rem !important;*/
+}
+/*#leaflet-routing-container{*/
+/*    width: 600px !important;*/
+/* }*/
+
+.leaflet-routing-container, .leaflet-routing-error {
+    /*! width: 320px; */
+    /*! background-color: white; */
+    padding-top: 4px!important;
+    transition: all 0.2s ease!important;
+    box-sizing: border-box!important;
+    width: 30rem !important;
+
+}
+
+.leaflet-routing-container, .leaflet-routing-error {
+    width: 30rem !important;
+    color: black !important;
+    background-color: beige !important;
+    padding-top: 4px!important;
+    transition: all 0.2s ease!important;
+    box-sizing: border-box!important;
+}

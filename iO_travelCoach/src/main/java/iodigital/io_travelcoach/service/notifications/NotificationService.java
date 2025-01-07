@@ -1,24 +1,23 @@
 package iodigital.io_travelcoach.service.notifications;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
-//@Service
+@Service
 public class NotificationService {
 
 
-//    private final JavaMailSender mailSenders;
-//
-//    public NotificationService(JavaMailSender mailSender) {
-//        this.mailSenders = mailSender;
-//    }
-//
-//
-//    public void sendDisruptionAlert(String employeeEmail, String disruptionDetails){
-//        SimpleMailMessage message = new SimpleMailMessage();
-//        message.setTo(employeeEmail);
-//        message.setSubject("Disruption Alert");
-//        message.setText(disruptionDetails);
-//        mailSenders.send(message);
-//    }
+    @Autowired
+    private JavaMailSender mailSender;
+
+    public void sendEmail(String to, String subject, String text) {
+        SimpleMailMessage message = new SimpleMailMessage();
+        message.setTo(to);
+        message.setSubject(subject);
+        message.setText(text);
+        message.setFrom("your-email@gmail.com"); // Sender's email address
+
+        mailSender.send(message);
+    }
 }

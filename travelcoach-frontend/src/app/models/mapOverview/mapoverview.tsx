@@ -8,7 +8,7 @@ import 'leaflet/dist/leaflet.css';
 import "leaflet-routing-machine";
 import styles from './mapoverview.module.css';
 import Papa from 'papaparse';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+// import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 // import {any} from "prop-types";
 // import Script from "next/script";
 // import Script from "next/script"; // Assuming you have a CSS module

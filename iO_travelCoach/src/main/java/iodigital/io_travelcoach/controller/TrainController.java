@@ -60,7 +60,7 @@ public class TrainController {
                 120,                         // actualTimeZoneOffset
                 "1",                         // plannedTrack
                 "1",                         // actualTrack
-                product,                     // product (created above)
+                product,                     // NSProduct (created above)
                 "SPR",                       // trainCategory
                 false,                       // cancelled
                 new ArrayList<>(),           // messages (empty list)

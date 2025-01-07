@@ -2,10 +2,13 @@ package iodigital.io_travelcoach.config;
 
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
 @Getter
-@Configuration
+@Component
+//@ConfigurationProperties(prefix = "ns.api.access")
 public class TokenConfig {
 
     @Value("${ns.api.access.user.key}")
@@ -21,27 +24,4 @@ public class TokenConfig {
     @Value("${ev.api.key}")
     private String evApikey;
 
-    public String getNsReisApiKey() {
-        return nsReisApiKey;
-    }
-
-    public String getNsApiName() {
-        return nsApiName;
-    }
-
-    public String getNsTripApiKey() {
-        return nsTripApiKey;
-    }
-
-    public String getNsPriceApiKey() {
-        return nsPriceApiKey;
-    }
-
-    public String getEvApiname() {
-        return evApiname;
-    }
-
-    public String getEvApikey() {
-        return evApikey;
-    }
 }
